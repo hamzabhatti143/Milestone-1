@@ -1,0 +1,63 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    background-color: aquamarine;
+}
+h2{
+    text-align: center;
+}
+form{
+    max-width: 600px;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.5);
+    margin-top: auto;
+    background-color: aqua;
+}
+label{
+    padding: 10px;
+    margin-top: 30px;
+}
+input, textarea{
+    width: calc(100% - 150px);
+    padding: 10px;
+    border: 1px solid #3498bd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.name{
+    padding: 20px;
+}
+.age{
+    padding: 20px;
+}
+.email{
+    padding: 20px;
+}
+.number{
+    padding: 20px;
+}
+.edu{
+    padding: 20px;
+}
+.skill-set{
+    padding: 20px;
+}
+
+fieldset{
+     border: 2px solid blueviolet;
+     border-radius: 10px;
+}
+ button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: aqua;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+
+ button:hover{
+    background-color: rgb(120, 255, 255);
+ }
+ 
